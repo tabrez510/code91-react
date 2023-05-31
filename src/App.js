@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import EventHandler from "./components/eventHandler/EventHandler";
+import UseState from "./components/useState/UseState";
+import PackingList from "./components/conditionalRendering/PackingList"
+import RenderingList from "./components/renderingList/RenderingList";
+import Parent from "./components/methodProp/Parent";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <EventHandler /> */}
+      {/* <UseState /> */}
+      {/* <PackingList /> */}
+      {/* <RenderingList /> */}
+      <Parent />
+    </>
   );
 }
 
